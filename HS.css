@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    background-color: black;
+    background-image: url('image/happy.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color:#111727;
+    flex-wrap: wrap;
+    height: 6rem;
+}
+.logo img{
+    margin: 1rem;
+    width: 5rem;
+    height: 4rem;
+}
+.nav h1{
+    color: black;
+    margin: 1rem;
+}
+/*.nav2{
+    position: relative;
+    left: 50rem;
+    top: 2rem;
+   
+}
+.nav2 a{
+    margin: 0 3rem;
+    margin-right: 2rem;
+    text-decoration: none;
+}*/
+.poster{
+    margin:1rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.post img{
+    width: 13rem;
+    height: 10rem;
+    border-radius: 30%;
+    cursor: pointer;
+}
+.post h2{
+    margin-left:4rem;
+    color: blue;
+    
+}
+.poster1{
+    margin:10rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.container .song{
+    display: flex;
+    align-items: start;
+    flex-flow: column;
+    /*height:16rem;
+    width: 80%;*/
+}
+ .img{
+    height: 50%;
+    width: 25%;
+}
+
